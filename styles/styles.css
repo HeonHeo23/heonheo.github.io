@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  
+  background-color: #F0F7EE;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #5D737E;
+}
+.header h1 {
+  color: #F0F7EE;
+}
+.header nav {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  height: 100%;
+}
+.header nav ul a {
+  text-decoration: none;
+  color: #000
+}
+.header nav ul a li {
+  padding: 10px 20px;
+}
+.header nav ul a li:hover {
+  background-color: #FFF07C;
+} 
